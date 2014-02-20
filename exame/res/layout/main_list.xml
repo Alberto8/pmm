@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+<TextView  
+    android:id="@+id/textoTra"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="TRANSPORTES ANDROID" />
+
+<TextView
+    android:id="@+id/lblResultado"
+    android:layout_below="@+id/LstOpciones"
+    android:layout_width="200px"
+    android:layout_height="fill_parent" />
+
+<RadioGroup
+        android:id="@+id/gruporb"
+        android:layout_width="300px"
+        android:layout_height="150dp"
+        android:layout_marginRight="80px"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:text="TARIFA NORMAL" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TARIFA URGENTE" />
+    </RadioGroup>
+    
+<CheckBox
+		android:text="Caja regalo"
+		android:layout_below="@+id/gruporb"
+		android:id="@+id/regalo"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</CheckBox>
+
+	<CheckBox
+		android:text="Con tarjeta dedicada"
+		android:id="@+id/tarjeta"
+		android:layout_below="@+id/gruporb"
+		android:layout_toRightOf="@+id/regalo"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</CheckBox>
+
+	<ListView
+	    android:id="@+id/LstOpciones"
+	    android:layout_width="200px"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/textoTra" >
+	</ListView>
+
+	<EditText
+	    android:id="@+id/texto"
+	    android:layout_width="192dp"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/regalo"
+	    android:layout_marginLeft="45dp"
+	    android:layout_marginTop="15dp"
+	    android:text="Introduce el peso del paquete"	  
+	    android:ems="10" >	    
+	</EditText>
+
+	<Button
+	    android:id="@+id/button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="30dp"
+	    android:layout_toRightOf="@+id/regalo"
+	    android:onClick="GoTextClick"
+	    android:text="HACER CALCULOS" />
+
+</RelativeLayout>
