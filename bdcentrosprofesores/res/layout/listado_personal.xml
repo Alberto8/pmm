@@ -1,0 +1,42 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	
+<TextView 
+    android:id="@+id/codigo"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="20px" />
+
+<TextView 
+    android:id="@+id/dni"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="normal"
+	android:textSize="12px" />
+
+<TextView 
+    android:id="@+id/apellidos"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="normal"
+	android:textSize="12px" />
+
+<TextView 
+    android:id="@+id/funcion"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="normal"
+	android:textSize="12px" />
+
+<TextView 
+    android:id="@+id/salario"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="normal"
+	android:textSize="12px" />
+
+</LinearLayout>

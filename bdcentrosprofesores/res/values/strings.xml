@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BdCentrosProfesores</string>
+    <string name="action_settings">Settings</string>
+    <string name="profesores">Profesores</string>
+    <string name="personal">Personal</string>
+    <string name="centros">Centros</string>
+    <string name="consultas">Consultas</string>
+    <string name="activity_profesores">Profesores</string>
+    <string name="lista_vacia">La lista esta vacia</string>
+    <string name="activity_personal">Personal</string>
+    <string name="activity_centros">Centros</string>
+    <string name="activity_mostrar_centro">Editar Centro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="activity_insertar_centros">InsertarCentros</string>
+    <string name="activity_insertar_profesor">InsertarProfersor</string>
+    <string name="activity_consulta_personal">ConsultaPersonal</string>
+    <string name="activity_mostrar_personal">MostrarPersonal</string>
+    <string name="activity_insertar_personal">InsertarPersonal</string>
+    <string name="activity_consulta_profesores">ConsultaProfesores</string>
+    <string name="activity_mostrar_profesores">MostrarProfesores</string>
+    <string name="activity_consultas">Consultas</string>
+    <string name="activity_salario_mayor">SalarioMayor</string>
+    <string name="activity_salario_menor">SalarioMenor</string>
+    <string name="activity_mayor_salario_grupo">MayorSalarioGrupo</string>
+    <string name="activity_menor_salario_grupo">MenorSalarioGrupo</string>
+
+</resources>
+
